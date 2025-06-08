@@ -6,7 +6,7 @@ A Discord-like chat application with both client and admin interfaces, running o
 
 ### Build & Run
 
-**Start the server:**
+**First step start the server:**
 - Double-click `run-server.bat` in File Explorer  
   **or**
 - From a terminal:
