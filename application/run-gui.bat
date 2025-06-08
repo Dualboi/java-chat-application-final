@@ -25,6 +25,6 @@ REM Show Java version for confirmation
 java -version
 
 REM Run the GUI client in a new window
-start cmd /k "java -jar \"%JAR%\" GUI"
+start "" cmd /k ""%JAVA_HOME%\bin\java.exe" -jar "%JAR%" GUI"
 
 pause

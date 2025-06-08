@@ -35,6 +35,6 @@ if not exist "%JAR%" (
 )
 
 REM Run the application (change 'server' to 'client' or 'gui' as needed)
-start cmd /k "java -jar \"%JAR%\" server"
+start "" cmd /k ""%JAVA_HOME%\bin\java.exe" -jar "%JAR%" server"
 
 pause
