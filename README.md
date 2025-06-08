@@ -3,7 +3,11 @@ Client and admin side discord like chat application running as a java server.
 
 Running instructions
 *Building the application*
-    open up a command prompt cd into the directory for the application root, then type the command run.bat if in the IDE terminal use .\/run.bat this will start the server in the command line and prompt for a port number and password.
+To start the server, double-click `run.bat` in File Explorer.  
+If running from a terminal, use:
+```
+./run.bat
+```
 
 Terminal instructions
 
