@@ -1,30 +1,63 @@
-# java-chat-application
-Client and admin side discord like chat application running as a java server.
+# Java Chat Application
 
-Running instructions
-*Building the application*
-To start the server, double-click `run.bat` in File Explorer.  
-If running from a terminal, use:
-```
-./run.bat
-```
+A Discord-like chat application with both client and admin interfaces, running on a Java server.
 
-Terminal instructions
+## Getting Started
 
-*Server:*
-    java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar server
+### Build & Run
 
-*Client:*
-    java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar client
+**Start the server:**
+- Double-click `run-server.bat` in File Explorer  
+  **or**
+- From a terminal:
+  ```
+  ./run-server.bat
+  ```
 
-To run the client in javafx GUI
-    java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar GUI
+  **Start the client:**
+- Double-click `run-client.bat` in File Explorer  
+  **or**
+- From a terminal:
+  ```
+  ./run-client.bat
+  ```
 
-To access the http server page:
-Enter http://localhost:8080/ into your web browser once the server is running.
+  **Start the GUI:**
+- Double-click `run-gui.bat` in File Explorer  
+  **or**
+- From a terminal:
+  ```
+  ./run-gui.bat
+  ```
 
-Other instructions
-*Client:*
-    you can enter the command "quit" at any time to quit the client
+**Manual commands:**
 
-*/help for command information*
+- **Server:**
+  ```
+  java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar server
+  ```
+
+- **Client:**
+  ```
+  java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar client
+  ```
+
+- **JavaFX GUI Client:**
+  ```
+  java -jar target/java_chat_app-1.0-SNAPSHOT-jar-with-dependencies.jar GUI
+  ```
+
+### Web Interface
+
+Once the server is running, open your browser and go to:  
+[http://localhost:8080/](http://localhost:8080/)
+
+## Usage
+
+- **Client:**  
+  Type `quit` at any time to exit the client.
+
+- **Commands:**  
+  Use `/help` in the client for a list of available commands.
+
+---
