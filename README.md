@@ -61,3 +61,10 @@ Once the server is running, open your browser and go to:
   Use `/help` in the client for a list of available commands.
 
 ---
+
+## To view Javadocs 
+
+- **Go to**
+  ```
+  application\target\site\apidocs\index.html
+  ```

@@ -107,7 +107,6 @@ public class Server {
      * It creates a new ServerSocket and starts the server.
      *
      * @param args Command line arguments (not used).
-     * @throws IOException If an I/O error occurs when creating the server socket.
      */
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

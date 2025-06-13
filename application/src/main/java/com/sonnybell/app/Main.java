@@ -6,7 +6,7 @@ import com.sonnybell.app.server.Server;
 
 /**
  * Main class to start the application.
- * Usage: java -jar your-app.jar <server|client|GUI>
+ * Usage: java -jar your-app.jar &lt;server|client|GUI&gt;
  */
 public final class Main {
 
